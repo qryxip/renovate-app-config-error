@@ -16,7 +16,7 @@ jobs:
       - name: Renovate
         uses: renovatebot/github-action@v40.2.10
         with:
-          renovate-version: 38.100.1
+          renovate-version: 38.97.0
           configurationFile: renovate.json5
           token: ${{ secrets.GITHUB_TOKEN }} # don't create PRs
         env:
