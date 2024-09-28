@@ -1,0 +1,15 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:recommended",
+  ],
+  separateMajorMinor: false,
+  enabled: false,
+  packageRules: [
+    {
+      matchDatasources: [
+        "*", // ← this comma is OK
+      ], // ← also OK
+    }
+  ],
+}
