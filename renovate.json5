@@ -10,6 +10,6 @@
       matchDatasources: [
         "*", // ← this comma is OK
       ], // ← also OK
-    }
+    }, // ← then, what will happen?
   ],
 }
